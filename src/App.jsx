@@ -4,9 +4,9 @@ import SectionBottom from './components/SectionBottom.jsx'
 
 export default function App () {
   return (
-    <div className='container'>
+    <main className='container'>
       <SectionMain></SectionMain>
       <SectionBottom></SectionBottom>
-    </div>
+    </main>
   )
 }

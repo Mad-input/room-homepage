@@ -75,7 +75,9 @@ export default function SectionMain() {
                 isMobile 
                 ? <nav className={`nav__mobile`}>
                     <button onClick={openNavbar} className="open__nav__mobile">
+                        <span>
                         <IconHamburguer></IconHamburguer>
+                        </span>
                     </button>
                     <div className="logo">room</div>
                     <ul className={` list__nav__mobile ${showNavbar ? 'active' : ''}`}>
@@ -103,10 +105,14 @@ export default function SectionMain() {
 
             <div className="buttons">
                 <button onClick={left}>
+                    <span>
                     <Arrow></Arrow>
+                    </span>
                 </button>
                 <button onClick={right}>
+                    <span>
                     <Arrow></Arrow>
+                    </span>
                 </button>
             </div>
         </div>
